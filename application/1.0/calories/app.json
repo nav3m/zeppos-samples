@@ -2,7 +2,7 @@
   "configVersion": "v2",
   "app": {
     "appId": 20001,
-    "appName": "Calories",
+    "appName": "FidCards",
     "appType": "app",
     "version": {
       "code": 1,
@@ -10,7 +10,7 @@
     },
     "icon": "icon.png",
     "vender": "zepp",
-    "description": "calories application"
+    "description": "Fid Cards App"
   },
   "permissions": [],
   "runtime": {
@@ -95,7 +95,7 @@
   },
   "i18n": {
     "en-US": {
-      "appName": "Calories"
+      "appName": "FIdCards"
     }
   },
   "defaultLanguage": "en-US"

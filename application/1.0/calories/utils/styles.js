@@ -4,7 +4,7 @@ export const { width: DEVICE_WIDTH, height: DEVICE_HEIGHT } =
   hmSetting.getDeviceInfo()
 
 export const COMMON_TITLE_TEXT = {
-  text: gettext('calories'),
+  text: gettext('FidCards'),
   x: px(96),
   y: px(40),
   w: px(288),
@@ -62,14 +62,14 @@ export const TOTAL_CONSUME_TEXT = {
 }
 
 export const EQUIVALENT_TO_BUTTON = {
-  text: gettext('equivalent'),
+  text: gettext('Cards List'),
   press_color: 0x333333,
   normal_color: 0x1a1a1a,
   x: px(108),
   y: px(376),
-  w: px(264),
+  w: px(270),
   h: px(56),
-  color: 0xffffff,
+  color: 0xff0000,
   text_size: px(32),
   radius: px(28),
 }
@@ -86,9 +86,9 @@ export const EQUIVALENT_MORE_X = 155
 export const EQUIVALENT_TO_FOOD_ICON_WIDTH = 80
 
 export const EQUIVALENT_TO_FOOD_ICON = {
-  src: 'food/hamburger.png',
-  x: px(0),
-  y: px(288),
+  src: 'food/franprix.png',
+  x: px(100),
+  y: px(110),
 }
 
 export const EQUIVALENT_MORE_FOOD_ICON = {

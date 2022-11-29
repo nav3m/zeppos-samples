@@ -5,13 +5,13 @@ const fileName = 'calorie_data.txt'
 
 App({
   globalData: {
-    foodType: 'chocolate',
+    foodType: 'franprix',
     localStorage: null
   },
   onCreate() {
     try {
       this.globalData.localStorage = new LocalStorage(fileName)
-      const { foodType = 'chocolate' } = this.globalData.localStorage.get()
+      const { foodType = 'franprix' } = this.globalData.localStorage.get()
       this.globalData.foodType = foodType
       
     } catch (e) {
