@@ -1,24 +1,7 @@
-import { gettext } from 'i18n'
 import {
   COMMON_TITLE_TEXT,
-  CALORIE_TEXT,
-  CALORIE_TEXT_SIZE,
-  UNIT_TEXT,
-  UNIT_TEXT_SIZE,
-  TOTAL_CONSUME_TEXT,
-  CONSUME_ICON,
-  CONSUME_ICON_WIDTH,
-  ALIGN_DESC_GROUP,
-  IMGAE_CALORIES_MARIN,
-  CALORIES_UNIT_MARIN,
   EQUIVALENT_TO_BUTTON,
   EQUIVALENT_TO_FOOD_ICON,
-  DEVICE_WIDTH,
-  EQUIVALENT_MORE_X,
-  EQUIVALENT_MARGIN,
-  EQUIVALENT_TO_FOOD_ICON_WIDTH,
-  EQUIVALENT_MORE_FOOD_ICON,
-  EQUIVALENT_MORE_FOOD_NUM,
 } from '../../utils/styles'
 import { FOOD_CALORIES } from '../../utils/constants'
 const logger = DeviceRuntimeCore.HmLogger.getLogger('calories')
@@ -54,7 +37,7 @@ Page({
   drawFood(type) {
     hmUI.createWidget(hmUI.widget.IMG, {
       ...EQUIVALENT_TO_FOOD_ICON,
-      src: `food/${type}.png`,
+      src: `cards/${type}.png`,
     })
   },
   onReady() {},

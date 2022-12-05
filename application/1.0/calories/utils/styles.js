@@ -86,8 +86,8 @@ export const EQUIVALENT_MORE_X = 155
 export const EQUIVALENT_TO_FOOD_ICON_WIDTH = 80
 
 export const EQUIVALENT_TO_FOOD_ICON = {
-  src: 'food/franprix.png',
-  x: px(100),
+  src: 'cards/franprix.png',
+  x: px(95),
   y: px(110),
 }
 

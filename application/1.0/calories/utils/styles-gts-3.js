@@ -85,7 +85,7 @@ export const EQUIVALENT_MORE_X = 113
 export const EQUIVALENT_TO_FOOD_ICON_WIDTH = 72
 
 export const EQUIVALENT_TO_FOOD_ICON = {
-  src: 'food/hamburger.png',
+  src: 'cards/hamburger.png',
   x: 103, //0
   y: 224,
 }
